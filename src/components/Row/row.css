@@ -1,0 +1,33 @@
+.row_icons{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_icons::-webkit-scrollbar{
+    display: none;
+}
+
+.row_icon{
+    object-fit: contain;
+    width: 100%;
+    max-height: 140px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_iconLarge{
+    max-height: 160px;
+}
+
+.row_icon:hover{
+    transform: scale(1.08);
+}
+.row_iconLarge:hover{
+    transform: scale(1.09);
+
+}
+.row{
+    margin-left: 20px;
+}
